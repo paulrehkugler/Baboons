@@ -1,0 +1,11 @@
+Problem from Modern Operating Systems 3rd Ed:
+
+A student majoring in anthropology and minoring in computer science has embarked on a research project
+to see if African baboons can be taught about deadlocks. He locates a deep canyon and fastens a rope
+across it, so the baboons can cross hand-over-hand. Several baboons can cross at the same time, provided
+that they are all going in the same direction. If eastward moving and westward moving baboons ever get
+onto the rope at the same time, a deadlock will result (the baboons will get stuck in the middle)
+because it is impossible for one baboon to climb over another one while suspended over the canyon.
+If a baboon wants to cross the canyon, he must check to see that no other baboon is currently crossing
+in the opposite direction. Write a program using semaphores that avoids deadlock. Do not worry about a
+series of eastward moving baboons holding up the westward moving baboons indefinitely.
